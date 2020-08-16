@@ -54,7 +54,7 @@ function minsToHoursMins(mins) {
 }
 
 //takes browser information and calculates the converted time of the workshop
-function convertToLocal (d, c) {
+function convertToLocal(d, c) {
   var melbMins = minsFromMidnight(d);
   var newDate = d.getDate();
   var convertedMins = melbMins + c;
@@ -64,7 +64,7 @@ function convertToLocal (d, c) {
 }
 
 
-function displayWorkshopTime () {
+function displayWorkshopTime() {
 
   /*
   uncomment the date you need (below the corresponding title)
